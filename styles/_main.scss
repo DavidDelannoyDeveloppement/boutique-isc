@@ -143,10 +143,10 @@ body {
 
 
 
-
     .main-container__support-box {
         @include flex-center;
         justify-content: space-around;
+        align-items: flex-start;
         flex-wrap: wrap;
         width: 100%;
         margin-bottom: 50px;
@@ -295,6 +295,7 @@ body {
         box-shadow: inset 2px 2px 4px 2px rgba(0, 0, 0, 0.766);
     }
 }
+
 
 
 
