@@ -141,7 +141,6 @@ body {
   color: #292929;
   font-size: 20px;
   line-height: 1.2em;
-  text-indent: 3em;
   margin: 0.5em 1em;
 }
 @media only screen and (max-width: 900px) {
@@ -216,6 +215,16 @@ body {
   top: 10px;
   right: 10px;
   background-color: #ff44b4;
+  color: white;
+  font-weight: 700;
+  padding: 2px 5px;
+  box-shadow: 2px 2px 4px black;
+}
+.main-container .main-container__support-box .support-box .box .genre-mixte {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #0c8c00;
   color: white;
   font-weight: 700;
   padding: 2px 5px;

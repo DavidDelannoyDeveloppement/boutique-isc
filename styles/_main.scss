@@ -124,7 +124,7 @@ body {
             color: $grey;
             font-size: 20px;
             line-height: 1.2em;
-            text-indent: 3em;
+            // text-indent: 3em;
             margin: 0.5em 1em;
             @media only screen and (max-width: 900px){
                 font-size: 18px;
@@ -193,6 +193,17 @@ body {
                     top: 10px;
                     right: 10px;
                     background-color: $rose;
+                    color: white;
+                    font-weight: 700;
+                    padding: 2px 5px;
+                    box-shadow: 2px 2px 4px black;
+                }
+
+                .genre-mixte {
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                    background-color: $vert;
                     color: white;
                     font-weight: 700;
                     padding: 2px 5px;
